@@ -1,11 +1,16 @@
 <script lang="ts">
   import { Illustration, TAU } from 'svelte-zdog'
   import Wall from './Wall.svelte'
-  import './castle.css'
+  import { onMount } from 'svelte'
 
   const zoom = 16
+  const gray = "#EEE"
   let rotate = false
 
+  onMount(() => {
+    const body = document.body;
+    body.style.background = gray;
+  })
 </script>
 
 <div class="castle container">

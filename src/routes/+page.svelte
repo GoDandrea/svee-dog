@@ -1,6 +1,6 @@
 <script>
-  import Castle from "$lib/Castle/Castle.svelte";
+  import Solids from '$lib/Solids/Solids.svelte';
 </script>
 
-<Castle />
+<Solids />
 

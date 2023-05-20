@@ -1,11 +1,10 @@
 canvas {
-  background: #eee;
+  background: transparent;
   display: block;
-  width: 100%;
+  width: 90vh;
 }
 
 .container {
-  background: transparent;
   min-height: 100%;
   margin: 0;
   display: flex;
