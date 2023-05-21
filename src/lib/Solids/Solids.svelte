@@ -1,12 +1,8 @@
 <script lang="ts">
   import { 
-    Anchor, 
-    Box, 
     easeInOut, 
-    Hemisphere, 
     Illustration, 
     lerp,
-    Polygon, 
     TAU, 
     Vector 
   } from 'svelte-zdog';
